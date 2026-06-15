@@ -3,15 +3,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "node server.js",
-    "restartPolicyType": "ON_FAILURE"
-  }
-}
-{
-  "build": {
-    "builder": "NIXPACKS"
-  },
-  "deploy": {
     "startCommand": "node server.js"
   }
 }
