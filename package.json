@@ -1,4 +1,10 @@
-{
+{{
+  "deploy": {
+    "startCommand": "node server.js",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 300
+  }
+}
   "name": "nafas",
   "version": "1.0.0",
   "description": "نَفَس",
